@@ -24,8 +24,8 @@ This workshop aims to provide an overview of the new trends and advances in thos
 Jointly with the NTIRE workshop, we have an NTIRE challenge on Image Inpainting, that is, the task of predicting the values of missing pixels in an image so that the completed result looks realistic and coherent. This challenge has 3 main objectives:
 
 1. Direct comparison of recent state-of-the-art Image Inpainting solutions, which will be considered as baselines. See [baselines](baselines/).
-2. To perform a comprehensive analysis on the different types of masks, for instance, strokes, half completion, nearest neighbor upsampling, *etc*. Thus, highlighting the pros and cons of each method for each type of mask.
-3. To set a public benchmark on 4 different datasets ([FFHQ](https://github.com/NVlabs/ffhq-dataset), [Places](http://places2.csail.mit.edu), [ImageNet](https://www.image-net.org/challenges/LSVRC/2012/index.php#), and [WikiArt](https://www.kaggle.com/c/painter-by-numbers/data)) for direct and easy comparison.
+2. To perform a comprehensive analysis on the different types of masks, for instance, strokes, half completion, nearest neighbor upsampling, *etc*. Thus, highlighting the pros and cons of each method for each type of mask. See [Type of masks](#type-of-masks).
+3. To set a public benchmark on 4 different datasets ([FFHQ](https://github.com/NVlabs/ffhq-dataset), [Places](http://places2.csail.mit.edu), [ImageNet](https://www.image-net.org/challenges/LSVRC/2012/index.php#), and [WikiArt](https://www.kaggle.com/c/painter-by-numbers/data)) for direct and easy comparison. See [data](data/).
 
 This challenge has 2 tracks:
 - **Track 1**: [Traditional Image Inpainting](https://codalab.lisn.upsaclay.fr/competitions/1607).
