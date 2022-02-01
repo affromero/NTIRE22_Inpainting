@@ -11,7 +11,8 @@
 - **2022.06.19**: Workshop day
 
 ## Description
-The 7th edition of NTIRE: New Trends in Image Restoration and Enhancement workshop will be held on June 2022 in conjunction with CVPR 2022.
+<img src="https://data.vision.ee.ethz.ch/cvl/ntire22/assets/img/backgrounds/bg5.jpg" width=1000 height=300/>
+The 7th edition of [NTIRE: New Trends in Image Restoration and Enhancement workshop will be held on June 2022 in conjunction with CVPR 2022](https://data.vision.ee.ethz.ch/cvl/ntire22).
 
 Image manipulation is a key computer vision task, aiming at the restoration of degraded image content, the filling in of missing information, or the needed transformation and/or manipulation to achieve the desired target (with respect to perceptual quality, contents, or performance of apps working on such images). Recent years have witnessed an increased interest from the vision and graphics communities in these fundamental topics of research. Not only has there been a constantly growing flow of related papers, but also substantial progress has been achieved.
 Image Inpainting, also known as image completion, is a key computer vision task that aims at filling missing information within an image. Recent years have witnessed an increased interest from the vision and graphics communities in this fundamental topic of research.
