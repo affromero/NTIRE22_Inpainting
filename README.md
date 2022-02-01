@@ -80,7 +80,8 @@ Thanks to everyone who makes their code and models available. In particular,
 
 - The [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) framework, from which we use DeepLabV3 to annotate the Places dataset
 - All the authors in [baselines](baselines/) for providing their code and pre-trained models for easy comparison
+- The uthors of [LaMa](https://github.com/saic-mdal/lama) for providing the scripts for the stroke masks
 - [@andreas128](https://github.com/andreas128) for providing the mask generation scripts and visualizations
 - The authors of [ FFHQ-Aging-Dataset
-Public](https://github.com/royorel/FFHQ-Aging-Dataset) for providing a nice testbed for a FFHQ face parsing annotation.
+Public](https://github.com/royorel/FFHQ-Aging-Dataset) for providing a nice testbed for a FFHQ face parsing annotation
 - The good [Learned Perceptual Similarity (LPIPS)](https://github.com/richzhang/PerceptualSimilarity)
