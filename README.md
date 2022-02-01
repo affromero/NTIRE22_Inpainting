@@ -75,3 +75,13 @@ In case of any questions about the challenge or the toolkit, feel free to open a
 
 ## Terms and conditions
 The terms and conditions for participating in the challenge are provided [here](terms_and_conditions.md)
+
+## Shout-outs
+Thanks to everyone who makes their code and models available. In particular,
+
+- The [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) framework, from which we use DeepLabV3 to annotate the Places dataset
+- All the authors in [baselines](baselines/) for providing their code and pre-trained models for easy comparison
+- [@andreas128](https://github.com/andreas128) for providing the mask generation scripts and visualizations
+- The authors of [ FFHQ-Aging-Dataset
+Public](https://github.com/royorel/FFHQ-Aging-Dataset) for providing a nice testbed for a FFHQ face parsing annotation.
+- The good [Learned Perceptual Similarity (LPIPS)](https://github.com/richzhang/PerceptualSimilarity)
