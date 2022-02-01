@@ -36,6 +36,22 @@ This challenge has 2 tracks:
 ## Main Goal
 The aim is to obtain a **mask agnostic** network design/solution capable of producing high-quality results with the best perceptual quality with respect to the ground truth.
 
+## Type of Masks
+In addition to the typical strokes, with this challenge, we aim at more generalizable solutions. 
+
+
+|                  Thick Strokes                 |                  Medium Strokes                |                  Thin Strokes                 |
+:-----------------------------------------------:|:----------------------------------------------:|:----------------------------------------------:
+| <img src="src/ThickStrokes.png" width=300/>    | <img src="src/MediumStrokes.png" width=300/>   | <img src="src/ThinStrokes.png" width=300/>    |
+
+|                  Every_N_Lines                 |                  Completion                    |                  Expand                       |
+:-----------------------------------------------:|:----------------------------------------------:|:----------------------------------------------:
+| <img src="src/Every_N_Lines.png" width=300/>   | <img src="src/Completion.png" width=300/>      | <img src="src/Expand.png" width=300/>         |
+
+|                  Nearest_Neighbor              |
+:-----------------------------------------------:|
+| <img src="src/Nearest_Neighbor.png" width=300/>    
+
 ## Data
 Following a common practice in Image Inpainting methods, we use three popular datasets for our challenge: [FFHQ](https://github.com/NVlabs/ffhq-dataset), [Places](http://places2.csail.mit.edu), and [ImageNet](https://www.image-net.org/challenges/LSVRC/2012/index.php#). Additionally, to explore a new benchmark, we also use the [WikiArt](https://www.kaggle.com/c/painter-by-numbers/data) dataset to tackle inpainting towards art creation. See the [data](data/) for more info about downloading the datasets.
 
