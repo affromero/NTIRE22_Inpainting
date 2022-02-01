@@ -4,6 +4,6 @@ envs/
 *pyc*
 *~
 slurm*
-dummy*
+*dummy*
 create_split*
 *pth
