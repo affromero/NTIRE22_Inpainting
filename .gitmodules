@@ -1,0 +1,3 @@
+[submodule "evaluation/mmsegmentation"]
+	path = evaluation/mmsegmentation
+	url = https://github.com/open-mmlab/mmsegmentation.git
