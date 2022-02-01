@@ -1,4 +1,4 @@
-# Image Inpainting Challenge - Official Repository
+# NTIRE 2022 - Image Inpainting Challenge
 
 ## Important dates
 - **2022.02.01**: Release of train data (input and output images) and validation data (only input)
@@ -29,8 +29,8 @@ Jointly with the NTIRE workshop, we have an NTIRE challenge on Image Inpainting,
 3. To set a public benchmark on 4 different datasets ([FFHQ](https://github.com/NVlabs/ffhq-dataset), [Places](http://places2.csail.mit.edu), [ImageNet](https://www.image-net.org/challenges/LSVRC/2012/index.php#), and [WikiArt](https://www.kaggle.com/c/painter-by-numbers/data)) for direct and easy comparison.
 
 This challenge has 2 tracks:
-- **Track 1**: Traditional Image Inpainting.
-- **Track 2**: Image Inpainting conditioned on Semantic Segmentation mask.
+- **Track 1**: [Traditional Image Inpainting](https://codalab.lisn.upsaclay.fr/competitions/1607).
+- **Track 2**: [Image Inpainting conditioned on Semantic Segmentation mask](https://codalab.lisn.upsaclay.fr/competitions/1608).
 
 
 ## Main Goal
