@@ -30,4 +30,7 @@
 <img src="https://miro.medium.com/max/1400/0*jJX7bymBZPNoN0qk" width=500/>
 
 # Validation Set + Masks: https://polybox.ethz.ch/index.php/s/nBta4VE0uBjG65D
+
 It can be access it with `wget` [7.2GB]. It does **not** contain Ground-Truth images. The full set will be release it after the challenge.
+
+It contains 1,000 images for each type of mask (7 x 1,000), for each dataset.
