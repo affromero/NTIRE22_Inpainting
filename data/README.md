@@ -10,9 +10,7 @@
 ## Places2
 
 - Webpage: http://places2.csail.mit.edu
-- Download link HR imgs: 
-    - Train: http://data.csail.mit.edu/places/places365/train_large_places365challenge.tar
-    - Val: http://data.csail.mit.edu/places/places365/val_large.tar
+- Download Train: http://data.csail.mit.edu/places/places365/train_large_places365challenge.tar
 
 <img src="http://places2.csail.mit.edu/imgs/places2_collage_black.jpg" width=500/>
 
@@ -30,3 +28,6 @@
 - Kaggle command: `kaggle competitions download -c painter-by-numbers` (It requires `pip install kaggle==1.5.3`)
 
 <img src="https://miro.medium.com/max/1400/0*jJX7bymBZPNoN0qk" width=500/>
+
+# Validation Set + Masks: https://polybox.ethz.ch/index.php/s/nBta4VE0uBjG65D
+It can be access it with `wget` [7.2GB]. It does **not** contain Ground-Truth images. The full set will be release it after the challenge.
