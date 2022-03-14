@@ -3,11 +3,11 @@
 ## Important dates
 - **2022.02.01**: Release of train data (input and output images) and validation data (only input)
 - **2022.02.01**: Validation server online
-- **2022.03.13**: Final test data release (only input images)
-- **2022.03.20**: Test output results submission deadline
-- **2022.03.20**: Fact sheets and code/executable submission deadline
-- **2022.03.22**: Preliminary test results release to the participants
-- **2022.04.01**: Paper submission deadline for entries from the challenge
+- **2022.03.23**: Final test data release (only input images)
+- **2022.03.30**: Test output results submission deadline
+- **2022.03.30**: Fact sheets and code/executable submission deadline
+- **2022.04.01**: Preliminary test results release to the participants
+- **2022.04.11**: Paper submission deadline for entries from the challenge
 - **2022.06.19**: Workshop day
 
 ## Description
@@ -80,7 +80,7 @@ Thanks to everyone who makes their code and models available. In particular,
 
 - The [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) framework, from which we use DeepLabV3 to annotate the Places dataset
 - All the authors in [baselines](baselines/) for providing their code and pre-trained models for easy comparison
-- The uthors of [LaMa](https://github.com/saic-mdal/lama) for providing the scripts for the stroke masks
+- The authors of [LaMa](https://github.com/saic-mdal/lama) for providing the scripts for the stroke masks
 - [@andreas128](https://github.com/andreas128) for providing the mask generation scripts and visualizations
 - The authors of [ FFHQ-Aging-Dataset
 Public](https://github.com/royorel/FFHQ-Aging-Dataset) for providing a nice testbed for a FFHQ face parsing annotation
