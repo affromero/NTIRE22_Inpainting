@@ -32,4 +32,7 @@
 # Validation Set + Masks: https://polybox.ethz.ch/index.php/s/nBta4VE0uBjG65D
 # Validation Ground-Truth: https://polybox.ethz.ch/index.php/s/ishe5ocVOOvdiC3
 
+# Test Set + Masks: https://polybox.ethz.ch/index.php/s/qnf3NglUDqmvGBr
+# Test Ground-Truth: https://polybox.ethz.ch/index.php/s/vwT1xCPIOwbb6t7
+
 It contains 1,000 images for each type of mask (7 x 1,000), for each dataset.
