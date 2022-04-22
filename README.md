@@ -1,6 +1,6 @@
 # NTIRE 2022 - Image Inpainting Challenge
 
-![src/NTIRE2022_InpaintingReport.jpg](https://polybox.ethz.ch/index.php/s/zR0ghhWkCb8vpsR)
+[<img src="src/NTIRE2022_InpaintingReport.jpg" width=1000 height=300/>](https://polybox.ethz.ch/index.php/s/zR0ghhWkCb8vpsR)
 
 ## Important dates
 - **2022.02.01**: Release of train data (input and output images) and validation data (only input)
