@@ -1,0 +1,5 @@
+# @package _group_
+data_root_dir: /scratch_net/schusch/roandres/Code/Inpainting/datasets/Places
+out_root_dir: /scratch_net/schusch/roandres/Code/Inpainting/baselines/lama/experiments/Places
+tb_dir: /scratch_net/schusch/roandres/Code/Inpainting/baselines/lama/tb_logs/Places
+pretrained_models: /scratch_net/schusch/roandres/Code/Inpainting/baselines/lama/checkpoints/Places

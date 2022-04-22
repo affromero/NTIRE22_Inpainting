@@ -1,0 +1,5 @@
+# @package _group_
+data_root_dir: /scratch_net/schusch/roandres/Code/Inpainting/datasets/FFHQ
+out_root_dir: /scratch_net/schusch/roandres/Code/Inpainting/baselines/lama/experiments/FFHQ
+tb_dir: /scratch_net/schusch/roandres/Code/Inpainting/baselines/lama/tb_logs/FFHQ
+pretrained_models: /scratch_net/schusch/roandres/Code/Inpainting/baselines/lama/checkpoints/FFHQ
