@@ -14,17 +14,18 @@ strokes_configs = [
 
 __MASKS__ = ['Every_N_Lines', 'Completion', 'Expand', 'Nearest_Neighbor', 'ThickStrokes', 'MediumStrokes', 'ThinStrokes']
 
-def MergeMask(gt, mask, strc=6):
+def MergeMask(gt, mask, strc=6, edge=True):
     if mask.ndim == 2:
         mask = mask[:,:,None].repeat(3, axis=2)
-    edges = cv2.Canny(mask, 10, 200)
-    if strc > 1:
-        se = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (strc, strc))
-        edges = cv2.dilate(edges, se, iterations=1)
-    edges = np.stack([edges] * 3, axis=2)
-    edges[:, :, 0] = edges[:, :, 0] // 255 * 0
-    edges[:, :, 1] = edges[:, :, 1] // 255 * 250
-    edges[:, :, 2] = edges[:, :, 2] // 255 * 0
+    if edge:
+        edges = cv2.Canny(mask, 10, 200)
+        if strc > 1:
+            se = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (strc, strc))
+            edges = cv2.dilate(edges, se, iterations=1)
+        edges = np.stack([edges] * 3, axis=2)
+        edges[:, :, 0] = edges[:, :, 0] // 255 * 0
+        edges[:, :, 1] = edges[:, :, 1] // 255 * 250
+        edges[:, :, 2] = edges[:, :, 2] // 255 * 0
 
     mask_keep0 = 255 - mask
     mask_keep0[:, :, 0] = mask_keep0[:, :, 0] // 255 * 150
@@ -32,7 +33,8 @@ def MergeMask(gt, mask, strc=6):
     mask_keep0[:, :, 2] = mask_keep0[:, :, 2] // 255 * 255
 
     overlay = mask_keep0.copy()
-    np.putmask(overlay, mask_keep0 == 0, edges)
+    if edge:
+        np.putmask(overlay, mask_keep0 == 0, edges)
 
     gt_overlay = gt.copy()
     np.putmask(gt_overlay, overlay != 0, overlay)
