@@ -6,5 +6,6 @@ envs/
 slurm*
 *dummy*
 create_split*
+create_mask*
 *pth
 server*
