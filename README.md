@@ -87,3 +87,14 @@ Thanks to everyone who makes their code and models available. In particular,
 - The authors of [ FFHQ-Aging-Dataset
 Public](https://github.com/royorel/FFHQ-Aging-Dataset) for providing a nice testbed for a FFHQ face parsing annotation
 - The good [Learned Perceptual Similarity (LPIPS)](https://github.com/richzhang/PerceptualSimilarity)
+
+## Bibtex
+```
+@inproceedings{romero2022ntire,
+  title={NTIRE 2022 image inpainting challenge: Report},
+  author={Romero, Andres and Castillo, Angela and Abril-Nova, Jose and Timofte, Radu and Das, Ritwik and Hira, Sanchit and Pan, Zhihong and Zhang, Min and Li, Baopu and He, Dongliang and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1150--1182},
+  year={2022}
+}
+```
