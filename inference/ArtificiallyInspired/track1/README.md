@@ -15,7 +15,7 @@ numpy
 
 1. Download models:
 ```
-python download_models.py
+bash download_models.sh
 ```
 
 2. Do inference:
